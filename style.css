@@ -1,0 +1,138 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Numito', sans-serif;
+font-family: 'Sansita Swashed', cursive; */
+
+.font1{font-size: 0.8rem;}
+.font2{font-size: 1.9rem;}
+.font3{font-size: 3rem;}
+.num{font-family: 'Numito', sans-serif; font-weight: bold;}
+@media (min-width:992px){
+    .width-lg-50{
+        width: 200px;
+    }
+}
+.left-border{border-left: 8px solid rgb(14, 218, 218);  height: 30px; padding-left: 1rem;}
+.img-hover{overflow: hidden;}
+.img-hover img:hover{transform: scale(1.1); transition:1s;}
+.bg-colour{background-color: rgba(0, 0, 0, 0.836);  padding-bottom: 0px !important;}
+
+
+
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-image: url("pics/site_background.png");
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+}
+#header .navbar .collapse .nav-item{
+    padding: 0.5rem;
+    font-family: 'Sansita Swashed', cursive;
+}
+@media screen and (max-width:992px){
+    #header .navbar{
+        background-color: blueviolet;
+        position: relative;
+    }
+}
+
+#header .top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#banner{
+    background-image: url("pics/backgroundimg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#banner .space{
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+    width: 100%;
+    height: 550px;
+    /* margin-left: 50px; */
+    color: aliceblue;
+}
+@media (max-width:992px){
+    #banner .space{
+        padding-top: 10rem;
+        height: 600px;
+    }
+}
+
+#banner .space .button a{
+    margin-right: 9px !important;
+    /* padding: 10px; */
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+#banner .space .button a:hover{
+    background-color: aliceblue;
+    color: black !important;
+}
+
+/*Technolog section*/
+#tech{
+    padding: 4rem 0;
+}
+#tech .owl-carousel .item .item-title a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
+#tech .owl-carousel .item .item-title .d-flex img{
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+}
+#tech .owl-carousel .item .item-title .d-flex span{
+    padding-left: 2px;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+#tech .owl-carousel .owl-nav{
+    margin-top: 2rem;
+}
+#tech .owl-carousel .owl-nav button:focus{
+    outline: none;
+}
+#tech .owl-carousel .owl-nav button span{
+    padding:  4rem !important;
+    height: 15px !important;
+    color: aliceblue;
+}
+
+#footer{
+    background-image: url("pics/backgroundimg2.jpg");
+    padding: 3rem 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% 90%;
+
+}
+#footer .newsletter{
+    padding: 2rem;
+
+}
+#footer .newsletter button{
+    background-color: rgba(0, 0, 0, 0.856);
+    color: aliceblue;
+    padding: .5rem;
+    border-radius: 2rem;
+    width: 50%;
+    margin: 1rem;
+    font-size: .8rem;
+}
+#footer .newsletter button:hover{
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+}
+
+
